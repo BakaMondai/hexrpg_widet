@@ -1,9 +1,9 @@
 ## untracked files
-parser/config.py
+stock_parser/config.py
 lottery/config.py
 
 parser/force_format.txt
-parser/parsed_data.txt
+stock_parser/parsed_data.txt
 
-parser/.csv
-parser/.txt
+stock_parser/.csv
+stock_parser/.txt
