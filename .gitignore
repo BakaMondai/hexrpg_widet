@@ -1,0 +1,9 @@
+## untracked files
+parser/config.py
+lottery/config.py
+
+parser/force_format.txt
+parser/parsed_data.txt
+
+parser/.csv
+parser/.txt
