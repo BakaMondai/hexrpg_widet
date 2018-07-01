@@ -1,14 +1,14 @@
-import requests
-import urllib.request
-import export
 import config
 from bs4.element import Comment
 from bs4 import BeautifulSoup
 
+import requests
+import urllib.request
+import export
 
-def stock_access(payload):
+def stock_access(login_info):
   with requests.Session() as session:
-    session.post(config.login_url, data=payload)
+    session.post(config.login_url, data=login_info)
     hex_rpg_response = session.get(config.stock_url)
     text = hex_rpg_response.text
     return text
