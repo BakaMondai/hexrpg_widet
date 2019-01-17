@@ -1,8 +1,6 @@
 import requests
 import urllib.request
 import config
-from bs4.element import Comment
-from bs4 import BeautifulSoup
 
 def lottery_access(login_info, posting_info):
   while True:
