@@ -11,7 +11,7 @@ import plum_supply_check as sup_check
 import plum_supply_purchase as sup_purchase
 import plum_tree_check as tree_check
 
-
+# Right now, main is not going to do anything but cost me galleons, so don't run it if you don't have to. 
 def plumStartUp():
     with requests.Session() as session:
     #login to the website
