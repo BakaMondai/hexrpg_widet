@@ -1,6 +1,5 @@
-import stock_html
-import export
 import config
+import export
 
 def format():
   # open text documents we will be reading and writing to.

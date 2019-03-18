@@ -1,6 +1,8 @@
 ## untracked files
-stock_parser/config.py
-lottery/config.py
+scripts/automated_dirgible_plums/config.py
+scripts/bet_manager/config.py
+scripts/lottery/config.py
+scripts/stock_parser/config.py
 
 parser/force_format.txt
 stock_parser/parsed_data.txt
