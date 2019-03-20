@@ -1,3 +1,7 @@
+from bs4 import BeautifulSoup
+
+import config
+import re
 
 def plum_supply_check(session):
     supply_array = []
