@@ -1,6 +1,6 @@
 import requests
 import urllib.request
-import config
+import scripts.config as config
 
 def lottery_access(login_info, posting_info):
   while True:
