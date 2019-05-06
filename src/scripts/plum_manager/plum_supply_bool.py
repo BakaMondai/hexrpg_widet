@@ -1,4 +1,4 @@
-import config
+import scripts.config as config
 
 import plum_supply_check as sup_check
 

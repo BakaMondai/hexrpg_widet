@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 
-import config
+import scripts.config as config
+import scripts.login as login
 import requests
 import re
 
@@ -16,12 +17,6 @@ import plum_tree_check as tree_check
 import plum_supply_bool as sup_bool
 
 def plumStartUp():
-    with requests.Session() as session:
-    #login to the website
-        session.post(config.login_url, data=config.payload)
-
-        print("You've logged into HexRPG. My name is PlumGuide. I handle everything plum related\n")
-        print("Let me see if plums are available today...\n\n\n")
 
         day_check = day.dateCheck()
 

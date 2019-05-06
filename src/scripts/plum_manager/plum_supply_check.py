@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 
-import config
+import scripts.config as config
 import re
 
 def plum_supply_check(session):
