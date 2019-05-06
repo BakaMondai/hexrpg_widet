@@ -1,14 +1,16 @@
 ## untracked files
-scripts/automated_dirgible_plums/config.py
-scripts/automated_dirgible_plums/__pycache__
+node_modules
 
-scripts/bet_manager/config.py
-scripts/lottery/config.py
-scripts/stock/config.py
-scripts/daily_money/config.py
+src/scripts/automated_dirgible_plums/config.py
+src/scripts/automated_dirgible_plums/__pycache__
 
-parser/force_format.txt
-stock_parser/parsed_data.txt
+src/scripts/bet_manager/config.py
+src/scripts/lottery/config.py
+src/scripts/stock/config.py
+src/scripts/daily_money/config.py
 
-scripts/stock_parser/*.csv
-scripts/stock_parser/*.txt
+src/parser/force_format.txt
+src/stock_parser/parsed_data.txt
+
+src/scripts/stock_parser/*.csv
+src/scripts/stock_parser/*.txt

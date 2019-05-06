@@ -1,0 +1,6 @@
+# This or greater should be fine
+python==2.7 
+
+bs4
+requests
+urllib
