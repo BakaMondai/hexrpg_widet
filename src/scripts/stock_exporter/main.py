@@ -1,4 +1,4 @@
-import config
+import scripts.config as config
 import force_format as formatter
 import stock_html as sh
 

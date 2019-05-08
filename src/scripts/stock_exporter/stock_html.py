@@ -1,10 +1,9 @@
-import config
+import scripts.config as config
 from bs4.element import Comment
 from bs4 import BeautifulSoup
 
 import requests
 import urllib.request
-import export
 
 def stock_access(login_info):
   with requests.Session() as session:
@@ -18,7 +17,7 @@ def parse_data(stock):
   texts = soup.findAll(text=True)
   visible_texts = filter(tag_visible, texts)
   data = u"\n".join(t.strip() for t in visible_texts)
-  export.export(config.parsed_name)
+  export(config.parsed_name)
   print(data)
 
 def tag_visible(element):

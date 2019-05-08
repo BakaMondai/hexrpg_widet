@@ -1,5 +1,9 @@
-import config
-import export
+import scripts.config as config
+import sys
+
+def export(name):
+  sys.stdout = open(name, 'w')
+
 
 def format():
   # open text documents we will be reading and writing to.
@@ -8,7 +12,7 @@ def format():
   export_file = config.doc_name
 
   # call the export function
-  export.export(export_file)
+  export(export_file)
   
   # take in line content of the text document
   # searchlines is an array of strings

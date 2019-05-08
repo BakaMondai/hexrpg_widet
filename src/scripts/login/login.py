@@ -4,5 +4,5 @@ import requests
 def login():
     with requests.Session() as session:
     #login to the website
-        session.post(config.login_url, data=config.payload)
+        session.post(config.login_url, data=config.login_payload)
         return session
