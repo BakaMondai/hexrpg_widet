@@ -1,4 +1,4 @@
-import scripts.config as config
+import config as config
 from bs4.element import Comment
 from bs4 import BeautifulSoup
 

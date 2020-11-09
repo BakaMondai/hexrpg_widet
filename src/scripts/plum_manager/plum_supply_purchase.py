@@ -1,4 +1,4 @@
-import scripts.config as config
+import config as config
 
 import plum_resupply as resupply
 

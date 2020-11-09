@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 
-import scripts.config as config
+import config as config
 
 import plum_purchase as purchase
 import day_of_week as day

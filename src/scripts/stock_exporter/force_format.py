@@ -1,4 +1,4 @@
-import scripts.config as config
+import config as config
 import sys
 
 def export(name):
